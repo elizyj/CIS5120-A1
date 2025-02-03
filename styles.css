@@ -1,0 +1,94 @@
+body {
+    font-family: inter;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    min-height: 100vh;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    box-sizing: border-box;
+    font-family: inter;
+}
+
+.search-bar {
+    text-align: center;
+    margin-bottom: 2vh;
+}
+
+.search-bar img {
+    width: 600px;
+    height: 100px;
+}
+
+.temperature {
+    font-size: 30vw;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 1vh;
+    line-height: 1;
+}
+
+.location {
+    font-size: 10vw;
+    text-align: center;
+    margin-bottom: auto;
+}
+
+.weather-info {
+    display: flex;
+    width: 100%;
+    height: 40vh;
+}
+
+.weather-card.clouds {
+    width: 40%;
+    background-color: #51BCF5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.weather-card.clouds img {
+    width: 80%;
+    height: 80%;
+    object-fit: contain;
+}
+
+.weather-card.conditions {
+    width: 60%;
+    background-color: #DCDCDC;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.weather-data {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.weather-data img {
+    width: 22vw;
+    height: 22vw;
+    margin-right: 15px;
+    min-width: 36px;
+    min-height: 36px;
+}
+
+.weather-value {
+    font-family: inter;
+    font-size: 6vw;
+    color: #333;
+    min-font-size: 28px;
+}
